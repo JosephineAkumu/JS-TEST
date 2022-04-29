@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+$m:100px;
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    .color{
+        width: $m;
+        height: $m;
+        background-color: aqua;
+    }
+
+    .btn{
+        background-color: rgb(98, 0, 255);
+        padding: 10px 20px;
+        border-radius: 3px;
+        border: none;
+        color: white;
+    }
+
+
+}
+
